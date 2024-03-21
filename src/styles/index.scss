@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "../assets/fonts/fonts.scss";
+
+@layer base {
+	html {
+		font-family: "Clash Display";
+		scroll-behavior: smooth;
+	}
+}
+
+* {
+	@apply antialiased;
+}
+
+body {
+	font-family: "Clash Display";
+}
+
+.container {
+	@apply max-w-[1280px] w-full mx-auto px-6;
+}
+
+.btn {
+	@apply font-semibold text-white text-base md:text-sm md:py-1 md:px-3 py-2 px-4 border border-white rounded-3xl rounded-br-sm inline-block transition-all hover:bg-primary hover:border-primary hover:rounded-br-3xl hover:rounded-tr-sm hover:rounded-bl-sm;
+}
+
+.btn-secondary {
+	@apply font-semibold text-white text-base md:text-sm md:py-1 md:px-3 py-2 px-4 border rounded-3xl rounded-br-sm inline-block transition-all hover:bg-transparent bg-primary hover:border-white border-primary hover:rounded-br-3xl hover:rounded-tr-sm hover:rounded-bl-sm;
+}
