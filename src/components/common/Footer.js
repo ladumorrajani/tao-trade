@@ -1,5 +1,5 @@
 import Twitter from "@assets/images/twitter.svg";
-import Telegram from "@assets/images/telegram.svg";
+import Discord from "@assets/images/discord.svg";
 import GitBook from "@assets/images/gitbook.svg";
 import Dex from "@assets/images/dex.svg";
 import Image from "next/image";
@@ -9,22 +9,22 @@ const SocialMedia = [
 	{
 		img: Twitter,
 		alt: "Twitter",
-		link: "Twitter",
+		link: "#",
 	},
 	{
-		img: Telegram,
-		alt: "Telegram",
-		link: "Twitter",
+		img: Discord,
+		alt: "Discord",
+		link: "#",
 	},
 	{
 		img: GitBook,
 		alt: "GitBook",
-		link: "Twitter",
+		link: "#",
 	},
 	{
 		img: Dex,
 		alt: "Dex",
-		link: "Twitter",
+		link: "#",
 	},
 ];
 
@@ -50,6 +50,7 @@ const Footer = () => {
 											<Image
 												src={item.img}
 												alt={item.alt}
+												width={24}
 												className="lg:max-w-[16px]"
 											/>
 										</Link>

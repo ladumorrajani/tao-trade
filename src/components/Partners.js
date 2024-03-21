@@ -1,25 +1,17 @@
-import Usd from "@assets/images/usd.svg";
-import TrueUsd from "@assets/images/trueusd.svg";
-import Solana from "@assets/images/solana.svg";
-import BitCoin from "@assets/images/bitcoin.svg";
+import TaoPad from "@assets/images/taopad.svg";
+import Arbitrum from "@assets/images/arbitrum.svg";
 import Image from "next/image";
 
 const Logos = [
 	{
-		img: BitCoin,
-		alt: "Bit coin",
-	},
-	{
-		img: TrueUsd,
+		img: TaoPad,
 		alt: "True Usd",
+		width: 200,
 	},
 	{
-		img: Usd,
-		alt: "Usd coin",
-	},
-	{
-		img: Solana,
-		alt: "Solana",
+		img: Arbitrum,
+		alt: "Arbitrum",
+		width: 180,
 	},
 ];
 
@@ -33,7 +25,12 @@ const Partners = () => {
 					{Logos.map((item, index) => {
 						return (
 							<div key={index}>
-								<Image src={item.img} alt={item.alt} />
+								<Image
+									src={item.img}
+									alt={item.alt}
+									width={item.width}
+									className="opacity-60"
+								/>
 							</div>
 						);
 					})}

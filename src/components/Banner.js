@@ -31,7 +31,11 @@ const Banner = () => {
 									<Link href="" className="btn-secondary">
 										Enter Dapp
 									</Link>
-									<Link href="" className="btn">
+									<Link
+										href="https://docs.taotrade.io/"
+										target="_blank"
+										className="btn"
+									>
 										Learn More
 									</Link>
 								</div>

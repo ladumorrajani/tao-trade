@@ -1,20 +1,19 @@
 import Image from "next/image";
 import Link from "next/link";
 import Logo from "@assets/images/logo.svg";
-import Shape from "@assets/images/shape.svg";
+import Twitter from "@assets/images/twitter.svg";
+import Discord from "@assets/images/discord.svg";
 
-const menuItem = [
+const SocialMedia = [
 	{
-		title: "Our partners",
-		link: "",
+		img: Twitter,
+		alt: "Twitter",
+		link: "#",
 	},
 	{
-		title: "About us",
-		link: "",
-	},
-	{
-		title: "How it works?",
-		link: "",
+		img: Discord,
+		alt: "Discord",
+		link: "#",
 	},
 ];
 
@@ -32,29 +31,29 @@ const Header = () => {
 							className="lg:max-w-[180px] md:max-w-[160px]"
 						/>
 					</Link>
-					<div className="flex items-center justify-end gap-16 flex-1">
-						<ul className="flex items-center gap-[54px] lg:hidden">
-							{menuItem.map((item, index) => {
+					<div className="flex items-center justify-end gap-10 flex-1">
+						<ul className="flex items-center gap-6 lg:hidden">
+							{SocialMedia.map((item, index) => {
 								return (
-									<li key={index} className="relative group">
-										<Image
-											src={Shape}
-											alt="Shape"
-											width={6}
-											className="absolute top-1/2 -mt-[3px] -right-8 group-last:hidden"
-										/>
+									<li key={index}>
 										<Link
 											href={item.link}
-											className="text-lg text-primary font-medium transition-all hover:text-[#CCF9FF]"
+											target="_blank"
+											className="w-8 h-8 flex items-center justify-center transition-all hover:opacity-80"
 										>
-											{item.title}
+											<Image
+												src={item.img}
+												alt={item.alt}
+												width={26}
+												className="lg:max-w-[16px]"
+											/>
 										</Link>
 									</li>
 								);
 							})}
 						</ul>
 						<Link href={"/"} className="btn">
-							Register Now
+							App
 						</Link>
 					</div>
 				</div>

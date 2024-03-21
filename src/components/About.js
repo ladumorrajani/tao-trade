@@ -36,14 +36,11 @@ const About = () => {
 	return (
 		<div className="bg-[#002D33] py-32 relative xl:py-24 lg:py-16">
 			<div className="container">
-				<div className="grid grid-cols-2 mb-4 md:grid-cols-1">
-					<div>
-						<Image
-							src={AboutImg}
-							alt="About"
-							width={616}
-							className="h-full object-cover"
-						/>
+				<div className="grid grid-cols-2 mb-4 md:grid-cols-1 gap-4">
+					<div className="p-px bg-gradient-to-r md:bg-gradient-to-b from-[40%] to-[#00E0FF]/50 from-[#002D33]">
+						<div className="flex items-center justify-center bg-[#002428] h-full">
+							<Image src={AboutImg} alt="About" width={417} />
+						</div>
 					</div>
 					<div className="p-px bg-gradient-to-r md:bg-gradient-to-b from-[40%] to-[#00E0FF]/50 from-[#002D33]">
 						<div className="py-14 px-11 relative bg-[#002428] lg:py-6 lg:px-5 lg:pb-10 h-full">
