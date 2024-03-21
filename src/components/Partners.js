@@ -1,4 +1,4 @@
-import TaoPad from "@assets/images/taopad.svg";
+import TaoPad from "@assets/images/taopad.png";
 import Arbitrum from "@assets/images/arbitrum.svg";
 import Image from "next/image";
 
