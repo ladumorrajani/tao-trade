@@ -26,7 +26,7 @@ const features = [
 			"Experience secure and stress-free day trading with our innovative protected perpetuals, designed to protect traders from sudden price movements and scam wicks. Traders can never be liquidated by price. Positions can expire when margin is depleted.",
 	},
 	{
-		title: "For Yield Farmers: ezVaults",
+		title: "For Yield Farmers: tVaults",
 		description:
 			"Optimize your yield generation with our streamlined and user-friendly vaults, making yield farming more accessible and efficient.",
 	},
