@@ -9,23 +9,23 @@ const SocialMedia = [
 	{
 		img: Twitter,
 		alt: "Twitter",
-		link: "#",
+		link: "https://twitter.com/TaoTradeX",
 	},
 	{
 		img: Discord,
 		alt: "Discord",
-		link: "#",
+		link: "https://discord.gg/ndPpvfs2",
 	},
 	{
 		img: GitBook,
 		alt: "GitBook",
-		link: "#",
+		link: "https://docs.taotrade.io/",
 	},
-	{
-		img: Dex,
-		alt: "Dex",
-		link: "#",
-	},
+	// {
+	// 	img: Dex,
+	// 	alt: "Dex",
+	// 	link: "#",
+	// },
 ];
 
 const Footer = () => {

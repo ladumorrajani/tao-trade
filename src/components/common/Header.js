@@ -8,12 +8,12 @@ const SocialMedia = [
 	{
 		img: Twitter,
 		alt: "Twitter",
-		link: "#",
+		link: "https://twitter.com/TaoTradeX",
 	},
 	{
 		img: Discord,
 		alt: "Discord",
-		link: "#",
+		link: "https://discord.gg/ndPpvfs2",
 	},
 ];
 
@@ -52,7 +52,7 @@ const Header = () => {
 								);
 							})}
 						</ul>
-						<Link href={"/"} className="btn">
+						<Link href={"/"} className="btn pointer-events-none">
 							App
 						</Link>
 					</div>

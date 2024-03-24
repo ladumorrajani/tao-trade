@@ -28,8 +28,11 @@ const Banner = () => {
 									Yield Generation
 								</p>
 								<div className="flex gap-6 items-center">
-									<Link href="" className="btn-secondary">
-										Enter Dapp
+									<Link
+										href=""
+										className="btn-secondary pointer-events-none"
+									>
+										Enter Dapp (Coming soon)
 									</Link>
 									<Link
 										href="https://docs.taotrade.io/"
