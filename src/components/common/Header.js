@@ -22,7 +22,7 @@ const Header = () => {
 		<div className="bg-[#002529CC] py-10 absolute top-0 w-full z-10 lg:py-6 md:py-4">
 			<div className="w-full h-px bg-gradient-to-r from-[#00E0FF] to-[#00B4CC] absolute bottom-0 left-0" />
 			<div className="container">
-				<div className="flex items-center justify-between gap-10">
+				<div className="flex items-center justify-between gap-10 sm:gap-2">
 					<Link href="#" target="_blank">
 						<Image
 							src={Logo}
@@ -31,7 +31,7 @@ const Header = () => {
 							className="lg:max-w-[180px] md:max-w-[160px]"
 						/>
 					</Link>
-					<div className="flex items-center justify-end gap-10 flex-1">
+					<div className="flex items-center justify-end gap-10 flex-1 sm:gap-4">
 						<ul className="flex items-center gap-6 lg:hidden">
 							{SocialMedia.map((item, index) => {
 								return (
@@ -52,9 +52,21 @@ const Header = () => {
 								);
 							})}
 						</ul>
-						<Link href={"/"} className="btn pointer-events-none">
-							App
-						</Link>
+						<div className="flex items-center gap-4 sm:gap-2">
+							<Link
+								href={"/whitepaper.pdf"}
+								className="btn"
+								target="_blank"
+							>
+								Whitepaper
+							</Link>
+							<Link
+								href={"/"}
+								className="btn pointer-events-none sm:hidden"
+							>
+								App
+							</Link>
+						</div>
 					</div>
 				</div>
 			</div>
