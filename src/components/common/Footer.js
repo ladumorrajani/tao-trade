@@ -1,7 +1,7 @@
 import Twitter from "@assets/images/twitter.svg";
 import Discord from "@assets/images/discord.svg";
 import GitBook from "@assets/images/gitbook.svg";
-import Dex from "@assets/images/dex.svg";
+import Email from "@assets/images/email.svg";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -59,9 +59,18 @@ const Footer = () => {
 							})}
 						</ul>
 					</div>
-					<p className="text-sm text-[#00B3CC]">
-						Copyright © 2024 taotrade. All Rights Reserved.
-					</p>
+					<div className="flex flex-col justify-end items-end md:items-center">
+						<Link
+							href="mailto:info@taotrade.io"
+							className="text-md text-[#00B3CC] hover:text-white transition-all mb-1 flex items-center gap-2"
+						>
+							<Image src={Email} alt="Email" width={16} />
+							info@taotrade.io
+						</Link>
+						<p className="text-sm text-[#00B3CC]">
+							Copyright © 2024 taotrade. All Rights Reserved.
+						</p>
+					</div>
 				</div>
 			</div>
 		</div>
