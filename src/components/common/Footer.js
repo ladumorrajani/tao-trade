@@ -14,12 +14,12 @@ const SocialMedia = [
 		link: "https://twitter.com/TaoTradeX",
 		width: 24,
 	},
-	{
-		img: Discord,
-		alt: "Discord",
-		link: "https://discord.gg/ndPpvfs2",
-		width: 22,
-	},
+	// {
+	// 	img: Discord,
+	// 	alt: "Discord",
+	// 	link: "https://discord.gg/ndPpvfs2",
+	// 	width: 22,
+	// },
 	{
 		img: GitBook,
 		alt: "GitBook",

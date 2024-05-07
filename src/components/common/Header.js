@@ -10,11 +10,11 @@ const SocialMedia = [
 		alt: "Twitter",
 		link: "https://twitter.com/TaoTradeX",
 	},
-	{
-		img: Discord,
-		alt: "Discord",
-		link: "https://discord.gg/ndPpvfs2",
-	},
+	// {
+	// 	img: Discord,
+	// 	alt: "Discord",
+	// 	link: "https://discord.gg/ndPpvfs2",
+	// },
 ];
 
 const Header = () => {
