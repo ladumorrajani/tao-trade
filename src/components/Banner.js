@@ -29,10 +29,11 @@ const Banner = () => {
 								</p>
 								<div className="flex gap-6 items-center">
 									<Link
-										href=""
-										className="btn-secondary pointer-events-none"
+										href="https://app.taotrade.io/"
+										target="_blank"
+										className="btn-secondary"
 									>
-										Enter Dapp (Coming soon)
+										Enter Dapp
 									</Link>
 									<Link
 										href="https://docs.taotrade.io/"

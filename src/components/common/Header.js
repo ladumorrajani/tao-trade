@@ -61,8 +61,9 @@ const Header = () => {
 								Whitepaper
 							</Link>
 							<Link
-								href={"/"}
-								className="btn pointer-events-none sm:hidden"
+								href="https://app.taotrade.io/"
+								target="_blank"
+								className="btn sm:hidden"
 							>
 								App
 							</Link>
